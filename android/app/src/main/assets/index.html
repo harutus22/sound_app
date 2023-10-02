@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+<!--            let params = (new URL(document.location)).searchParams;-->
+
+<!--            // Get property name from query parameters-->
+<!--            let propertyName = params.get("propertyName");-->
+<!--            // Get organization code from query parameters-->
+<!--            let orgCode = params.get("orgCode");-->
+
+<!--            var e=document.createElement("script");-->
+<!--            e.type="text/javascript";-->
+<!--            e.src=`https://global.ketchcdn.com/web/v2/config/${orgCode}/${propertyName}/boot.js`;-->
+<!--            e.defer=e.async=!0;-->
+<!--            document.getElementsByTagName("head")[0].appendChild(e);-->
+<!--            window.semaphore=window.semaphore||[];-->
+
+            // Show the preference center experience
+            //window.semaphore.push(['showPreferences'])
+
+<!--            !function(){-->
+<!--            var e=new URLSearchParams(document.location.search),-->
+<!--            a=e.has("property")?e.get("property"):"fitness",-->
+<!--            o=document.createElement("script");-->
+<!--            o.type="text/javascript",-->
+<!--            o.src="https://global.ketchcdn.com/web/v2/config/soax/".concat(a,"/boot.js"),-->
+<!--            o.defer=o.async=!0,-->
+<!--            document.getElementsByTagName("head")[0].appendChild(o),-->
+<!--            window.semaphore=window.semaphore||[]}();-->
+
+            !function(){
+            window.semaphore=window.semaphore||[],
+            window.ketch=function(){window.semaphore.push(arguments)};
+            var e=new URLSearchParams(document.location.search),
+            o=e.has("property")?e.get("property"):"sounds_for_sleep_and_relaxing__android_",
+            n=document.createElement("script");
+            n.type="text/javascript",
+            n.src="https://global.ketchcdn.com/web/v2/config/soax/".concat(o,"/boot.js"),
+            n.defer=n.async=!0,document.getElementsByTagName("head")[0].appendChild(n)}();
+        </script>
+</head>
+<body>
+</body>
+</html>

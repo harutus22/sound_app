@@ -1,0 +1,7 @@
+<resources>
+    <string name="show">Show</string>
+
+    <string name="cannot_get_advertising_id_toast">Cannot get AdvertisingId</string>
+    <string name="facebook_app_id">190208723852278</string>
+    <string name="fb_login_protocol_scheme">fb190208723852278</string>
+</resources>

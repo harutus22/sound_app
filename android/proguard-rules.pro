@@ -1,0 +1,2 @@
+-keep class com.saps.prx.** { *; }
+-keep class fitness_at_home.** { *; }
